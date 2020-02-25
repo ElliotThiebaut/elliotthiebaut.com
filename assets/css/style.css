@@ -1,11 +1,20 @@
 /* CSS */
 
 /* Header */
+header{
+    width: 100vw;
+}
 .logo-text{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 700;
     color: black;
+}
+.lg-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: black; 
 }
 .logo-text-link:hover{
     text-decoration: none;
