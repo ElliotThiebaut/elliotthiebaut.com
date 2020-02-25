@@ -129,7 +129,9 @@
 .contact-content{
     height: 20vh;
 }
-
+.icon-black{
+    color: black;
+}
 /* Works */
 .works-content{
     width: 20vw;
