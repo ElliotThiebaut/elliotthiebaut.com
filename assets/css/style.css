@@ -2,7 +2,7 @@
 
 /* Header */
 header{
-    width: 100vw;
+    width: 98vw;
 }
 .logo-text{
     font-family: 'Roboto', sans-serif;
@@ -14,7 +14,7 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    color: black; 
+    color: black;
 }
 .logo-text-link:hover{
     text-decoration: none;
@@ -201,6 +201,9 @@ header{
     }
     .modal-resp{
         flex-direction: column;
+    }
+    .lg-text{
+        font-size: 15px;
     }
     
 }
