@@ -38,6 +38,7 @@
 
         <!-- Hidden nav of switcher -->
         <ul class="uk-subnav uk-subrpill" uk-switcher>
+            <li><a href="#" hidden>Essen - Spiel Digital</a></li>
             <li><a href="#" hidden>Star Wars - The Game</a></li>
             <li><a href="#" hidden>Cercle Cylope</a></li>
             <li><a href="#" hidden>Label Vie</a></li>
@@ -51,6 +52,107 @@
         <ul class="uk-switcher">
 
             <!-- First item on switcher -->
+            <li>
+
+                <!-- Content of item -->
+                <div
+                    class="uk-container uk-container-large section-main uk-flex uk-flex-between uk-flex-middle uk-animation-slide-top-small">
+                    <div class="uk-flex uk-flex-column uk-width-1-5@m">
+                        <h2 class="about-title">Essen - Spiel Digital</h2>
+                        <p class="about-text">Essen Spiel is the biggest board game festival in the world, and I organized a digital event there for 4 days.</p>
+                    </div>
+                    <div class="works-slideshow uk-width-1-2@m uk-flex uk-flex-column uk-flex-center uk-flex-between">
+                        <a href="#" uk-switcher-item="previous"
+                            class="uk-flex uk-flex-center uk-flex-bottom uk-animation-toggle"><img
+                                src="../assets/img/small_arrow_reverse.png" alt="arrow"
+                                class="small_arrow-works uk-animation-slide-bottom-small"></a>
+                        <div class="content-slideshow uk-width-1-1 uk-box-shadow-large">
+                            <div class="uk-width-1-1 uk-height-1-1 uk-background-cover uk-light"
+                                data-src="../assets/img/Essen2.jpg" uk-img></div>
+                        </div>
+                        <a href="#" uk-switcher-item="next" class="uk-flex uk-flex-center uk-animation-toggle"><img
+                                src="../assets/img/small_arrow.png" alt="arrow"
+                                class="small_arrow-works uk-animation-slide-top-small"></a>
+                    </div>
+                    <a href="#first-item-modal" class="main-button uk-width-1-5@m uk-text-center" uk-toggle>See more</a>
+                </div>
+
+                <!-- Modal of item -->
+                <div id="first-item-modal" class="uk-flex-top uk-modal-container" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-flex modal-resp">
+
+                        <button class="uk-modal-close-default uk-position-top-left uk-flex" type="button"
+                            uk-close></button>
+
+                        <div class="uk-flex uk-flex-column uk-width-1-4@m uk-margin">
+                            <h2 class="about-title">Essen - Spiel Digital</h2>
+                            <p class="about-text">
+                                Essen Spiel is the biggest board game festival in the world, and I organized a digital event there for 4 days. <br><br>
+                                As a digital project manager at Blue Orange, a major publisher of board games around the world, I had the opportunity to organize and carry out a 4-day online festival.
+                                During this event I established a 4-day livestream strategy, but also set up an online store.<br><br>
+                                I created a video studio and set up a complete technical solution to make several different types of livestreams.
+                            </p>
+                        </div>
+                        <div class="uk-width-2-3 uk-margin-large-left uk-margin-auto-vertical uk-margin-auto">
+                            <div uk-slideshow="animation: push; autoplay: true" class="uk-box-shadow-large">
+                                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                                    <ul class="uk-slideshow-items">
+                                        <li>
+                                            <img src="../assets/img/Essen1.jpg" alt="elliot thiebaut portfolio"
+                                                uk-cover>
+                                        </li>
+                                        <li>
+                                            <img src="../assets/img/Essen2.jpg" alt="elliot thiebaut portfolio"
+                                                uk-cover>
+                                        </li>
+                                        <li>
+                                            <img src="../assets/img/Essen3.jpg" alt="elliot thiebaut portfolio"
+                                                uk-cover>
+                                        </li>
+                                        <li>
+                                            <img src="../assets/img/Essen4.jpg" alt="elliot thiebaut portfolio"
+                                                uk-cover>
+                                        </li>
+                                        <li>
+                                            <img src="../assets/img/Essen5.jpg" alt="elliot thiebaut portfolio"
+                                                uk-cover>
+                                        </li>
+                                        <li>
+                                            <img src="../assets/img/Essen6.jpg" alt="elliot thiebaut portfolio"
+                                                uk-cover>
+                                        </li>
+                                    </ul>
+                                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-previous uk-slideshow-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-next uk-slideshow-item="next"></a>
+                                    <div class="uk-position-bottom-center uk-position-small">
+                                        <ul class="uk-dotnav">
+                                            <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
+                                            <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+                                            <li uk-slideshow-item="2"><a href="#">Item 3</a></li>
+                                            <li uk-slideshow-item="3"><a href="#">Item 4</a></li>
+                                            <li uk-slideshow-item="4"><a href="#">Item 5</a></li>
+                                            <li uk-slideshow-item="5"><a href="#">Item 6</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div uk-lightbox class="uk-flex uk-flex-center uk-margin-medium-top">
+                                <a class="uk-button uk-button-secondary" href="../assets/img/Essen1.jpg">See fullscreen</a>
+                                <a href="../assets/img/Essen2.jpg"></a>
+                                <a href="../assets/img/Essen3.jpg"></a>
+                                <a href="../assets/img/Essen4.jpg"></a>
+                                <a href="../assets/img/Essen5.jpg"></a>
+                                <a href="../assets/img/Essen6.jpg"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </li>
+
+            <!-- Second item on switcher -->
             <li>
 
                 <!-- Content of item -->
