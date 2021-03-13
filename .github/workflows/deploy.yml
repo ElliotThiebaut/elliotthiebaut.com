@@ -4,10 +4,10 @@ on: [push]
 jobs:
 
   build:
-    name: Build
+    name: Updating repo
     runs-on: ubuntu-latest
     steps:
-    - name: command 1
+    - name: deleting files and cloning new repo
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST }}
@@ -16,4 +16,5 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd ../../var/www/html/elliotthiebaut.com/
-          ls
+          rm -rfv {*,.*}
+          git clone https://github.com/ElliotThiebaut/elliotthiebaut.com.git .
