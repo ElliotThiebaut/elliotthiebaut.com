@@ -132,7 +132,7 @@ dist
 # Generated files
 .idea/**/contentModel.xml
 
-# Sensitive or high-churn files
+# Sensitive or high-churn file
 .idea/**/dataSources/
 .idea/**/dataSources.ids
 .idea/**/dataSources.local.xml
