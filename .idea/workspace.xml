@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06ba5846-8d13-4b04-a2fb-a0094fb5f892" name="Changes" comment=":fire: Cleaning branch">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <updated>1628157985432</updated>
       <workItem from="1628157986640" duration="1022000" />
       <workItem from="1628173889474" duration="1157000" />
-      <workItem from="1628175435107" duration="714000" />
+      <workItem from="1628175435107" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary=":wastebasket: Deleted old code">
       <created>1628158140144</created>
@@ -127,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628175897971</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=":fire: Cleaning branch">
+      <created>1628176163009</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628176163009</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
