@@ -5,7 +5,7 @@ jobs:
 
   build:
     name: Updating repo
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
     - name: deleting files and cloning new repo
       uses: appleboy/ssh-action@master
