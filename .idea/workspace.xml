@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06ba5846-8d13-4b04-a2fb-a0094fb5f892" name="Changes" comment=":clown_face: Waiting page">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="06ba5846-8d13-4b04-a2fb-a0094fb5f892" name="Changes" comment=":construction_worker: Added deploy.yml">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628157985432</updated>
       <workItem from="1628157986640" duration="1022000" />
-      <workItem from="1628173889474" duration="349000" />
+      <workItem from="1628173889474" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary=":wastebasket: Deleted old code">
       <created>1628158140144</created>
@@ -91,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628166667025</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=":construction_worker: Added deploy.yml">
+      <created>1628174281721</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628174281721</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +119,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=":wastebasket: Deleted old code" />
     <MESSAGE value=":clown_face: Waiting page" />
-    <option name="LAST_COMMIT_MESSAGE" value=":clown_face: Waiting page" />
+    <MESSAGE value=":construction_worker: Added deploy.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value=":construction_worker: Added deploy.yml" />
   </component>
 </project>
