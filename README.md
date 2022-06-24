@@ -1,6 +1,6 @@
-# Best Website Ever
+# Personal website
 
-### The production version can be seen at [my-project.com](https://my-project.com) 🎉
+### The production version can be seen at [elliotthiebaut.com](https://elliotthiebaut.com) 🎉
 
 #### To install locally, run `npm install` first, then `npm run dev`.
 #### To compile for production run `npm run build`.

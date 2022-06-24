@@ -1,7 +1,7 @@
 {
-  "name": "my-project",
-  "private": true,
-  "version": "0.0.0",
+  "name": "elliotthiebaut.com",
+  "private": false,
+  "version": "2.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
