@@ -1,5 +1,7 @@
 <template>
-  <h1 class="text-2xl text-purple-500">This is the home page</h1>
+    <div class="bg-black w-screen h-screen">
+
+    </div>
 </template>
 
 <script setup>
